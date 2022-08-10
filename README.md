@@ -13,7 +13,7 @@ Based on aPaczka api [doc](https://dokumentacja-inpost.atlassian.net/wiki/spaces
 The recommended way to install is through [Composer](http://getcomposer.org).
 
 ```bash
-$ composer require patryk-sawicki/inpost
+composer require patryk-sawicki/inpost-laravel
 ```
 
 ## Usage

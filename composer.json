@@ -1,0 +1,34 @@
+{
+  "name": "patryk-sawicki/inpost-laravel",
+  "description": "InPost ShipX API client for laravel.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Patryk Sawicki",
+      "email": "patryk@patryksawicki.pl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PatrykSawicki\\InPost\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "laravel/framework": "^8.00 || ^9.00",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "PatrykSawicki\\InPost\\app\\Providers\\InPostServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

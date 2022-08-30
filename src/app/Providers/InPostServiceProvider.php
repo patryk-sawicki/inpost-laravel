@@ -16,7 +16,7 @@ class InPostServiceProvider extends ServiceProvider
 
 //        include $path . '/routes/web.php';
 
-        if(file_exists($this->app->databasePath() . '/config/apaczka.php') == false){
+        if(file_exists($this->app->databasePath() . '/config/inPost.php') == false){
             $this->publishes([$path . '/config/inPost.php' => config_path('inPost.php')], 'config');
         }
     }

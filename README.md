@@ -18,7 +18,13 @@ composer require patryk-sawicki/inpost-laravel
 
 ## Usage
 
-Import class.
+Add to env:
+
+```php
+INPOST_API_KEY = 'your_api_key'
+```
+
+Import class:
 
 ```php
 use PatrykSawicki\InPost\app\Classes\InPost;

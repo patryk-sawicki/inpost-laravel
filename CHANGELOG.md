@@ -1,3 +1,6 @@
+### 1.0.4
+* Update composer.json to Laravel 11.
+
 ### 1.0.3
 * Laravel 10.0.
 
